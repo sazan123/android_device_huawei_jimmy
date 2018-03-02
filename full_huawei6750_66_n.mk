@@ -17,9 +17,10 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-
-PRODUCT_BRAND := HUAWEI
-PRODUCT_NAME := full_huawei6750_66_n
+# Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := huawei6750_66_n
-PRODUCT_MANUFACTURER := HUAWEI
+PRODUCT_NAME := full_huawei6750_66_n
+PRODUCT_BRAND := huawei
 PRODUCT_MODEL := huawei6750_66_n
+PRODUCT_MANUFACTURER := HUAWEI
+PRODUCT_BOARD := huawei6750_66_n
