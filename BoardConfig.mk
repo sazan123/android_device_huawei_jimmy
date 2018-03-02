@@ -69,6 +69,12 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Partitions types
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+
+# Encryption
+TARGET_CRYPTFS_HW_PATH := $(LOCAL_PATH)/cryptfs_hw
+TARGET_HW_DISK_ENCRYPTION := true
+TW_INCLUDE_CRYPTO := true
+
 # TWRP Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery/root/etc/recovery.fstab
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
