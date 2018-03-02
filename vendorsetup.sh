@@ -1,1 +1,2 @@
+add_lunch_combo omni_huawei6750_66_n-userdebug
 add_lunch_combo omni_huawei6750_66_n-eng
