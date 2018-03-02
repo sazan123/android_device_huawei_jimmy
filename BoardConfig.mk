@@ -75,6 +75,9 @@ TARGET_CRYPTFS_HW_PATH := $(LOCAL_PATH)/cryptfs_hw
 TARGET_HW_DISK_ENCRYPTION := true
 TW_INCLUDE_CRYPTO := true
 
+# App
+# TW_EXCLUDE_TWRPAPP := true
+TW_EXCLUDE_SUPERSU := true
 # TWRP Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery/root/etc/recovery.fstab
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
