@@ -32,10 +32,10 @@ Camera_Main       | s5k3I8mipiraw
 Camera_Sub        | ov8856mipiraw
 WIFI              | CONSYS_MT6755
 
-git init
-git add .
-git commit -m "first commit"
-git remote add origin https://github.com/sazan123/android_device_huawei_huawei6750_66_n.git
-git branch twrp-7.1
+git init  
+git add .  
+git commit -m "first commit"  
+git remote add origin https://github.com/sazan123/android_device_huawei_huawei6750_66_n.git  
+git branch twrp-7.1  
 git push -u origin twrp-7.1
 
