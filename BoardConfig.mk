@@ -18,7 +18,7 @@
 # Product-specific compile-time definitions.
 #
 
-LOCAL_PATH := device/huawei/jimmy
+LOCAL_PATH := device/huawei/huawei6750_66_n
 
 # Assert
 # TARGET_OTA_ASSERT_DEVICE := 
@@ -49,7 +49,7 @@ BOARD_KERNEL_BASE := 40078000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02000000 --tags_offset 0x01E00000
-TARGET_PREBUILT_KERNEL := device/huawei/jimmy/recovery/kernel
+TARGET_PREBUILT_KERNEL := device/huawei/huawei6750_66_n/recovery/kernel
 
 # Partitions
 TARGET_USERIMAGES_USE_EXT4 := true

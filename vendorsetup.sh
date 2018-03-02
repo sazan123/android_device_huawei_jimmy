@@ -1,1 +1,1 @@
-add_lunch_combo omni_jimmy-eng
+add_lunch_combo omni_huawei6750_66_n-eng

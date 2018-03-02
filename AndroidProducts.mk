@@ -14,5 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_jimmy.mk \
-	$(LOCAL_DIR)/full_jimmy.mk
+	$(LOCAL_DIR)/omni_huawei6750_66_n.mk \
+	$(LOCAL_DIR)/full_huawei6750_66_n.mk
