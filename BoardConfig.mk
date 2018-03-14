@@ -71,9 +71,11 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Encryption
-TARGET_CRYPTFS_HW_PATH := $(LOCAL_PATH)/cryptfs_hw
-TARGET_HW_DISK_ENCRYPTION := true
 TW_INCLUDE_CRYPTO := true
+TW_CRYPTO_FS_TYPE := "f2fs"
+TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata"
+TW_CRYPTO_MNT_POINT := "/data"
+TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,inline_data,inline_xattr,data=ordered"
 
 # App
 # TW_EXCLUDE_TWRPAPP := true
