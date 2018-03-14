@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/huawei/huawei6750_66_n
+LOCAL_PATH := device/huawei/jimmy
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6750

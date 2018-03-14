@@ -1,4 +1,4 @@
-TWRP device tree for Honor V9 Play (huawei6750_66_n)
+TWRP device tree for Honor V9 Play (jimmy)
 
 Configuration for Honor V9 Play (JMM-AL00)
 ========================================================
@@ -35,7 +35,7 @@ WIFI              | CONSYS_MT6755
 git init  
 git add .  
 git commit -m "first commit"  
-git remote add origin https://github.com/sazan123/android_device_huawei_huawei6750_66_n.git  
+git remote add origin https://github.com/sazan123/android_device_huawei_jimmy.git  
 git branch twrp-7.1  
 git push -u origin twrp-7.1
 
