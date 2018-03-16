@@ -41,7 +41,7 @@ git push -u origin twrp-7.1
 
 Build TWRP  
   
-cd <source-dir>  
+cd (source-dir)  
 . build/envsetup.sh  
 lunch omni_jimmy-eng  
 mka clean  
