@@ -37,5 +37,13 @@ git add .
 git commit -m "first commit"  
 git remote add origin https://github.com/sazan123/android_device_huawei_jimmy.git  
 git branch twrp-7.1  
-git push -u origin twrp-7.1
+git push -u origin twrp-7.1  
+
+Build TWRP  
+  
+cd <source-dir>  
+. build/envsetup.sh  
+lunch omni_jimmy-eng  
+mka clean  
+mka recoveryimage  
 
