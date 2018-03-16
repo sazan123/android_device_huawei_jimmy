@@ -21,6 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 PRODUCT_DEVICE := jimmy
 PRODUCT_NAME := full_jimmy
 PRODUCT_BRAND := huawei
-PRODUCT_MODEL := Huawei V9 Play
+PRODUCT_MODEL := Honor V9 Play
 PRODUCT_MANUFACTURER := huawei
 PRODUCT_BOARD := jimmy
