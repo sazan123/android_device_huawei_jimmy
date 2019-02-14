@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<camerasize>
+<item name="cameraMain"
+user="0"    
+value="176x144_320x240_640x480_1280x720_1920x1080_3264x1840_3264x2448_3104x3104_4160x2336_4160x3120" />
+<item name="cameraSub"
+user="0"
+value="176x144_320x240_640x480_1280x720_1920x1080_2448x2448_3264x1840_3264x2448" />
+</camerasize>
